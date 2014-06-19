@@ -3,12 +3,12 @@
 %define		_pearname	Math_BigInteger
 Summary:	%{_pearname} - Pure-PHP arbitrary precission integer arithmetic library
 Name:		php-pear-%{_pearname}
-Version:	1.0.0
+Version:	1.0.2
 Release:	1
 License:	LGPL License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	ac8566d24862d24131a040b0c9a6d86b
+# Source0-md5:	2805de0fae93acf4084574e8419968ec
 URL:		http://pear.php.net/package/Math_BigInteger/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
